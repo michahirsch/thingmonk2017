@@ -21,10 +21,22 @@
       <div class="reveal">
          <div class="slides">
             <section>
-               <div style="position:absolute; float:none; font-size: 35px; display:block; top:60px;">Software Updates for the IoT</div>
-			   <div style="position:absolute; float:none; font-size: 18px; display:block; top:120px;">Michael Hirsch</div>
-			   <div style="position:absolute; float:none; font-size: 13px; display:block; top:155px;">Software Architect</div>
-			   <div style="position:absolute; float:none; font-size: 13px; display:block; top:170px;">Bosch Software Innovations GmbH</div>
+               <div style="position:absolute; font-family:Days One; float:none; font-size: 35px; display:block; top:60px;">Software Updates for the IoT</div>
+			   <div style="position:absolute; font-family:Days One; float:none; font-size: 18px; display:block; top:120px;">Michael Hirsch</div>
+			   <div style="position:absolute; font-family:Days One; float:none; font-size: 13px; display:block; top:155px;">Software Architect</div>
+			   <div style="position:absolute; font-family:Days One; float:none; font-size: 13px; display:block; top:170px;">Bosch Software Innovations GmbH</div>
+			   
+			   
+			   <div style="position:absolute; font-family:Days One; font-size: 13px; display:block; top:200px;">
+			     <img class="plain" src="images/twitter.png" width="30px"></img>
+				 <a style="float:right; font-family:Days One; font-size: 13px; font-style: italic; padding-left: 10px; margin-top: 20px; display:block;" href="https://twitter.com/hirschmicha">#hirschmicha</a>
+			   </div>
+			   
+			   <div style="position:absolute; font-family:Days One; font-size: 13px; display:block; top:235px;">
+			     <img class="plain" src="images/github.png" width="25px" style="padding-left: 3px"></img>
+				 <a style="float:right; font-family:Days One; font-size: 13px; font-style: italic; padding-left: 10px; margin-top: 20px; display:block;" href="https://github.com/michahirsch">#michahirsch</a>
+			   </div>
+			   
                <div>
                   <svg style="position:absolute; left: -700px" width="290%" onload="init(evt)" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 682.66669 314.66666" height="314.66666" width="682.66669" xml:space="preserve" id="svg2" version="1.1">
                      <metadata id="metadata8">
@@ -160,12 +172,54 @@
             <section>
 			    <h1 style="padding-bottom: 40px;">Why we need software updates in the IoT</h1>
 						<div class="fragment">
-						   <h2><b>Security</b></h2>
+						   <div style="display:block; float:left; padding-left: 20%">
+						      <h2><b>Security</b></h2>
+							  <div style="font-size: 14px; font-weight: normal; font-style: italic; margin-bottom: 5px;">Security patches</div>
+							  <div style="font-size: 14px; font-weight: normal; font-style: italic;">Prevent easy misuse (DDOS)</div>
+							</div>
 						</div>
 						<div class="fragment">
- 						  <h2><b>Agility</b></h2>
+						  <div style="display:block; float:right; padding-right: 20%;">
+ 						     <h2><b>Agility</b></h2>
+							 <div style="font-size: 14px; font-weight: normal; font-style: italic; margin-bottom: 5px;">Bring devices as soon as possible to the field</div>
+							 <div style="font-size: 14px; font-weight: normal; font-style: italic;">Delivering features continuously</div>
+						  </div>
 						</div>
 			</section>
+			<section>
+			   <h1>Why hawkBit?</h1>
+			   <div class="fragment" data-autoslide="2000">
+			      <li>Managing software updates from server-side looks always similiar</li>
+				  <div style="font-size: 14px; font-weight: normal; font-style: italic; margin-bottom: 25px;">Transfering binaries to a single or group of devices</div>
+			   </div>
+			   <div class="fragment"  data-autoslide="1000">
+			      <li>Software update is the backbone of every IoT solution
+				    <div style="font-size: 14px; font-weight: normal; font-style: italic; margin-bottom: 25px;">You can fix (almost) everything with software updates</div>
+				  </li>
+			   </div>
+			   <div class="fragment"  data-autoslide="1000">
+			      <li>Software update at scale is not trivial 
+				    <div style="font-size: 14px; font-weight: normal; font-style: italic; margin-bottom: 25px;">Defining deployment groups and rollout updates</div>
+				  </li>
+			   </div>
+			   <div class="fragment"/>
+			</section>
+			<section>
+			   <h2>Overview</h2>
+			   <img src="images/hawkBit_overview.png"></img>
+			</section>
+			<section>
+			   <h2>Demo</h2>
+			   <h4>Controlling a LED stripe with hawkBit</h4>
+			   <img src="images/demo_trans.png"></img>
+			</section>
+			<section>
+               <h1 style="padding-bottom: 100px;">Thank you!</h1>
+               <blockquote>
+                    There are two ways to write error-free programs; only the third one works. (Alan J. Perlis)
+               </blockquote>
+               <p style="padding-top: 50px;padding-bottom: 80px;"> So, keep up-to-date!</p>
+            </section>
          </div>
 		 
 		 <div id="header" style="visibility: hidden;" class="header">
